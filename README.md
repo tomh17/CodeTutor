@@ -2,7 +2,7 @@
 
 A Claude Code plugin that turns Claude from the one who writes the code into a tutor. **You
 write every line.** Claude asks questions, gives hints on a timed ladder, reviews what you
-built, breaks things on purpose so you can practise debugging, and turns what you struggled
+built, breaks things on purpose so you can practice debugging, and turns what you struggled
 with into flashcards.
 
 It's slower than letting Claude build. That's deliberate: the aim is skills you keep, so you
@@ -64,7 +64,7 @@ Each feature follows a specific research finding:
 In Claude Code (terminal or VS Code), run:
 
 ```
-/plugin marketplace add C:\Users\manti\Documents\Projects\CodeTutor
+/plugin marketplace add C:\Users\Username\Documents\Projects\CodeTutor
 /plugin install tutor@code-tutor-local
 ```
 
@@ -77,7 +77,7 @@ then start a new session.
 ### Option B: load it for one session (handy while editing the plugin)
 
 ```
-claude --plugin-dir C:\Users\manti\Documents\Projects\CodeTutor\tutor
+claude --plugin-dir C:\Users\UserName\Documents\Projects\CodeTutor\tutor
 ```
 
 ---
