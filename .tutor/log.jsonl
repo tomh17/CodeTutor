@@ -1,0 +1,2 @@
+{"ts": 1791828280.3694975, "event": "tutor_on"}
+{"ts": 1791828484.617692, "event": "problem_opened", "goal": "Build a github scraper that searches my repositories for secrets and helps me investigate if I committed anything that I shouldn't have."}

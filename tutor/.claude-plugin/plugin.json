@@ -1,0 +1,9 @@
+{
+  "name": "tutor",
+  "displayName": "Code Tutor",
+  "version": "0.1.0",
+  "description": "Turns Claude Code into a tutor: you write the code, Claude asks questions, gives hints on a timed ladder, reviews your work, runs debugging drills and builds spaced-repetition flashcards.",
+  "author": { "name": "Tom" },
+  "license": "MIT",
+  "keywords": ["learning", "tutor", "debugging", "education"]
+}

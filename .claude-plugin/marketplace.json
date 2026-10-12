@@ -1,0 +1,12 @@
+{
+  "name": "code-tutor-local",
+  "description": "Local marketplace for the Code Tutor plugin.",
+  "owner": { "name": "Tom" },
+  "plugins": [
+    {
+      "name": "tutor",
+      "source": "./tutor",
+      "description": "You write the code; Claude tutors."
+    }
+  ]
+}

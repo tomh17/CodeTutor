@@ -1,0 +1,35 @@
+{
+  "description": "Code Tutor: keeps Claude in the tutor role while tutor mode is on in a project. Does nothing in projects where it is off.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          { "type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/run.sh\" hook-session-start", "timeout": 20 }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          { "type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/run.sh\" hook-prompt", "timeout": 20 }
+        ]
+      }
+    ],
+    "UserPromptExpansion": [
+      {
+        "matcher": "^tutor:",
+        "hooks": [
+          { "type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/run.sh\" hook-expansion", "timeout": 30 }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "^(Edit|Write|MultiEdit|NotebookEdit|Bash|PowerShell)$",
+        "hooks": [
+          { "type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/run.sh\" hook-pretool", "timeout": 20 }
+        ]
+      }
+    ]
+  }
+}

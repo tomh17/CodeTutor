@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "mode": "normal",
+  "problem": {
+    "id": "20261012-140804",
+    "goal": "Build a github scraper that searches my repositories for secrets and helps me investigate if I committed anything that I shouldn't have.",
+    "kind": "build",
+    "started": 1791828484.6166203,
+    "level": 0,
+    "last_hint": null,
+    "hints": [],
+    "solution": false
+  },
+  "drill": null,
+  "active": true
+}
