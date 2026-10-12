@@ -3,7 +3,7 @@
   "mode": "normal",
   "problem": {
     "id": "20261012-140804",
-    "goal": "Build a github scraper that searches my repositories for secrets and helps me investigate if I committed anything that I shouldn't have.",
+    "goal": "",
     "kind": "build",
     "started": 1791828484.6166203,
     "level": 0,
